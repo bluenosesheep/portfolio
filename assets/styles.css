@@ -147,13 +147,13 @@ button { font: inherit; }
 .result-grid h2 { margin: 0; font-size: clamp(42px, 6vw, 42px); line-height: 1.25; letter-spacing: -.06em; }
 .stat strong { display: block; font-size: 42px; letter-spacing: -.05em; }
 .stat span { font-size: 13px; }
-.next-project { display: block; padding: 90px 0; }
+.next-project { display: block; padding: 30px 0; }
 .next-project small { color: var(--project-accent); font-weight: 700; }
 .next-project h2 { margin: 15px 0 0; font-size: clamp(32px, 8vw, 32px); line-height: 1; letter-spacing: -.06em; }
-.archive-hero { padding: 170px 0 80px; }
-.archive-hero h1 { margin: 20px 0 28px; max-width: 1050px; font-size: clamp(58px,10vw,140px); line-height: .9; letter-spacing: -.075em; }
-.archive-hero p { max-width: 740px; margin: 0; font-size: clamp(19px,2vw,28px); color: var(--muted); }
-.gallery-section { padding: 30px 0 120px; }
+.archive-hero { padding: 100px 0 10px; }
+.archive-hero h1 { margin: 20px 0 28px; max-width: 1050px; font-size: clamp(48px,10vw,48px); line-height: .9; letter-spacing: .015em; }
+.archive-hero p { max-width: 1740px; margin: 0; font-size: clamp(19px,2vw,20px); color: var(--muted); }
+.gallery-section { padding: 10px 0 20px; }
 .gallery-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
 .gallery-item { margin: 0; overflow: hidden; border-radius: 24px; background: #fff; border: 1px solid var(--line); cursor: zoom-in; }
 .gallery-item.wide { grid-column: 1 / -1; }
