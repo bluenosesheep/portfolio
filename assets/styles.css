@@ -45,7 +45,7 @@ button { font: inherit; }
 .button:hover { transform: translateY(-2px); background: #fff; }
 .button.dark { color: #fff; background: var(--ink); border-color: var(--ink); }
 
-.home-hero { min-height: 100svh; display: flex; align-items: flex-end; padding: 150px 0 70px; position: relative; overflow: hidden; }
+.home-hero { min-height: 40svh; display: flex; align-items: flex-end; padding: 50px 0 70px; position: relative; overflow: hidden; }
 .home-hero::before, .home-hero::after { content: ""; position: absolute; border-radius: 50%; filter: blur(2px); pointer-events: none; }
 .home-hero::before { width: 52vw; height: 52vw; right: -14vw; top: -20vw; background: radial-gradient(circle, rgba(91,126,255,.20), transparent 67%); }
 .home-hero::after { width: 30vw; height: 30vw; left: -12vw; bottom: -12vw; background: radial-gradient(circle, rgba(255,188,106,.18), transparent 70%); }
